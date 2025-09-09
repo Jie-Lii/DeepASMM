@@ -26,6 +26,7 @@ Input files must contain at least two columns:
 ```text
 Seqs    Labels
 ATAC... 1
+or
 'ATAC...'    '1'
 ```
 
@@ -51,4 +52,5 @@ ATAC...    ['1','1']
 ```text
 Seqs    Labels
 ['ATAC...','ATAC...']    ['1','1']
+
 ```
