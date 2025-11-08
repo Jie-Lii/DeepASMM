@@ -16,11 +16,11 @@ DeepASMM consists of four main steps. **First**, deep learning–based genomic s
 </div>  
 
 ### Experimental Data Introduction
-In this study, we used the dataset of our previously developed *maize gene expression prediction* model DeepCBA for the experiments [Wang et al., 2024](https://www.cell.com/plant-communications/fulltext/S2590-3462(24)00293-1). This dataset includes chromatin interaction and gene expression data of three tissues (shoot, ear, and tassel) of maize (B73).
+In this study, we used the dataset of our previously developed *maize gene expression prediction* model DeepCBA for the experiments ([Wang et al., 2024](https://www.cell.com/plant-communications/fulltext/S2590-3462(24)00293-1)). This dataset includes chromatin interaction and gene expression data of three tissues (shoot, ear, and tassel) of maize (B73).
 
 The *maize chromatin accessibility prediction* task, also involves the data of three tissues: shoot, ear, and tassel ([Peng et al., 2019](https://www.nature.com/articles/s41467-019-10602-5); [Li et al., 2019](https://www.nature.com/articles/s41467-019-10603-4); [Sun et al., 2020](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-020-02063-7)). For each dataset of chromatin accessibility peaks, we extended to 300bp region based on the central locus as positive samples. Negative samples were randomly selected from the maize B73 reference genome with the same number as positive samples, ensuring no overlap with positive regions. All samples were randomly split into training, validation, and test sets at a ratio of *6:2:2*.
 
-For the *human chromatin accessibility prediction* task, we used the dataset reported in the Basset model [Kelley et al., 2016](https://genome.cshlp.org/content/26/7/990.full). This dataset contains *2,071,886* sequences of 600bp covering *164* human cell types. In this dataset, *1,930,000* sequences were randomly selected as the training set, *70,000* as the validation set, and *71,886* as the test set.
+For the *human chromatin accessibility prediction* task, we used the dataset reported in the Basset model ([Kelley et al., 2016](https://genome.cshlp.org/content/26/7/990.full)). This dataset contains *2,071,886* sequences of 600bp covering *164* human cell types. In this dataset, *1,930,000* sequences were randomly selected as the training set, *70,000* as the validation set, and *71,886* as the test set.
 
 ## Environment  
 
@@ -45,7 +45,7 @@ This project is based on Python 3.8.13. The required environment is as follows:
 |    biopython    |    1.79     |
 |    tqdm         |    4.62.3   |  
 
-Some test cases have also been verified to run on *tensorFlow 1.15*.
+Some test cases have also been verified to run on *tensorflow 1.15*.
 
 For more required packages, please refer to the [requirements.txt](requirements.txt) file in this project.
 
