@@ -61,4 +61,4 @@ For more required packages, please refer to the [requirements.txt](requirements.
 
 
 ## Contact
-For questions or suggestions, please reach out: [Li_jie@webmail.hzau.edu.cn](mailto:Li_jie@webmail.hzau.edu.cn), [liujianxiao321@webmail.hzau.edu.cn](mailto:liujianxiao321@webmail.hzau.edu.cn).
+For questions or suggestions, please reach out: [Li_jie@webmail.hzau.edu.cn](mailto:Li_jie@webmail.hzau.edu.cn), [liujianxiao@mail.hzau.edu.cn](mailto:liujianxiao@mail.hzau.edu.cn).
