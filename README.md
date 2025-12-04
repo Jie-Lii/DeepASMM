@@ -50,11 +50,11 @@ Some test cases have also been verified to run on *tensorflow 1.15*.
 For more required packages, please refer to the [requirements.txt](requirements.txt) file in this project.
 
 ## How to Run
-1. For detailed instructions, please refer to the [DeepASMM Manual](https://github.com/Jie-Lii/DeepASMM/tree/main/DeepASMM/README.md) in this repository.
+1. For detailed instructions, please refer to the [**DeepASMM Manual**](https://github.com/Jie-Lii/DeepASMM/tree/main/DeepASMM/README.md) in this repository.
 
 2. **Parallel execution:** DeepASMM supports Python-based multi-processing acceleration. Depending on your hardware configuration, up to **10× speedup** can be achieved.
 
-3. **Demo examples** are available at [DeepASMM Demo](https://github.com/Jie-Lii/DeepASMM/tree/main/demo/). 
+3. **Demo examples** are available at [**DeepASMM Demo**](https://github.com/Jie-Lii/DeepASMM/tree/main/demo/). 
 
 4. If multiple motif sequence alignments are required, we recommend using our extended tool, [**TOMTOM Parallelization Tool**](https://github.com/Jie-Lii/parallel_tomtom).  
    This tool is built on Python’s multi-processing framework and wraps the MEME Suite TOMTOM module, achieving up to **100× faster alignment** performance.
