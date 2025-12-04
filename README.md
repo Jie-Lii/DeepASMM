@@ -27,16 +27,16 @@ For the *human chromatin accessibility prediction* task, we used the dataset rep
 ### CUDA Environment
 If you are running this project using GPU, please configure CUDA and cuDNN according to this version.  
   
-| Packages | Version |
+|  | Version |
 |-----:|---------------|
-|    CUDA    |    8.0    |
-|    cuDNN    |    11.0    |  
+|    CUDA    |    11.8    |
+|    cuDNN    |    8.6    |  
 
 
 ### package Environment 
 This project is based on Python 3.8.13. The required environment is as follows:  
 
-|                 |    Version  |
+|       Packages          |    Version  |
 |----------------:|-------------|
 |    numpy        |    1.19.5   |
 |    pandas       |    1.2.4    |
