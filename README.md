@@ -41,8 +41,8 @@ This project is based on Python 3.8.13. The required environment is as follows:
 |    numpy        |    1.19.5   |
 |    pandas       |    1.2.4    |
 |    tensorflow   |    2.4.0    |
-|    tf-keras-vis |    0.8.4    |
-|    biopython    |    1.79     |
+|    logomaker    |   0.8       |
+|    matplotlib   |    3.4.3    |
 |    tqdm         |    4.62.3   |  
 
 Some test cases have also been verified to run on *tensorflow 1.15*.
