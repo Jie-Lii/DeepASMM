@@ -27,7 +27,7 @@ For the *human chromatin accessibility prediction* task, we used the dataset rep
 ### CUDA Environment
 If you are running this project using GPU, please configure CUDA and cuDNN according to this version.  
   
-|  | Version |
+| Packages | Version |
 |-----:|---------------|
 |    CUDA    |    8.0    |
 |    cuDNN    |    11.0    |  
