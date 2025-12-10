@@ -1,0 +1,17 @@
+[2025-12-04 16:22:21,701] [INFO] Input parameter from txt file.
+[2025-12-04 16:22:21,701] [INFO] Running arguments: txt=../demo/basset_demo/command.txt, input_file_path=../demo/basset_demo/basset_8988T.csv, model_path=../demo/basset_demo/basset_test_tf24.h5, output=../demo/basset_demo/result, motif_length=8, num_processor=8, min_motif_count=10, top_r=0.1, min_top_r_num=30, category=all, CUDA_device=6, chunk_size=small
+[2025-12-04 16:22:21,702] [INFO] Using CUDA device: 6
+[2025-12-04 16:22:21,702] [INFO] Reading CSV file from: ../demo/basset_demo/basset_8988T.csv
+[2025-12-04 16:22:21,731] [INFO] CSV file successfully read and parsed
+[2025-12-04 16:22:23,724] [INFO] Sequences encoding start
+[2025-12-04 16:22:32,316] [INFO] Successfully located motifs
+[2025-12-04 16:23:01,778] [INFO] Successfully encoded sequences
+[2025-12-04 16:23:03,359] [INFO] Successfully loaded model
+[2025-12-04 16:23:03,377] [INFO] Motif sequence context synergy quantification begin
+[2025-12-04 16:25:54,970] [INFO] Successful quantification of motif sequence context synergy
+[2025-12-04 16:25:54,970] [INFO] Motif autonomous functionality quantification begin
+[2025-12-04 16:28:46,044] [INFO] Successful quantification of motif autonomous functionality
+[2025-12-04 16:28:46,191] [INFO] Motif autonomous functionality & sequence-context synergy quantification completed.
+[2025-12-04 16:28:46,390] [INFO] [Downsampling] too many points (29484), using 5000 points for plotting.
+[2025-12-04 16:28:48,913] [INFO] All results have been successfully saved to directory: ../demo/basset_demo/result
+[2025-12-04 16:28:48,914] [INFO] Total running time: 00h 06m 27.21s

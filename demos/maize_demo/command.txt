@@ -1,0 +1,8 @@
+--input_file_path ../demo/maize_demo/shoot(Li_et_al.).csv
+--model_path ../demo/maize_demo/shoot.h5
+--output ../demo/maize_demo/result
+--motif_length 8
+--num_processor 8
+--top_r 0.1
+--min_top_r_num 30
+--CUDA_device 0

@@ -1,0 +1,14 @@
+[2025-12-04 14:57:05,160] [INFO] Input parameter from txt file.
+[2025-12-04 14:57:05,160] [INFO] Running arguments: txt=../demo/maize_demo/command.txt, input_file_path=../demo/maize_demo/shoot(Li_et_al.).csv, model_path=../demo/maize_demo/shoot2.h5, output=../demo/maize_demo/result, motif_length=8, num_processor=8, min_motif_count=10, top_r=0.1, min_top_r_num=30, category=all, CUDA_device=0, chunk_size=small
+[2025-12-04 14:57:05,161] [INFO] Using CUDA device: 0
+[2025-12-04 14:57:05,162] [INFO] Reading CSV file from: ../demo/maize_demo/shoot(Li_et_al.).csv
+[2025-12-04 14:57:05,407] [INFO] CSV file successfully read and parsed
+[2025-12-04 14:57:09,150] [INFO] Sequences encoding start
+[2025-12-04 14:57:23,231] [INFO] Successfully located motifs
+[2025-12-04 14:58:12,185] [INFO] Successfully encoded sequences
+[2025-12-04 14:58:15,049] [INFO] Successfully loaded model
+[2025-12-04 14:58:15,077] [INFO] Motif sequence context synergy quantification begin
+[2025-12-04 16:44:16,566] [INFO] Successful quantification of motif sequence context synergy
+[2025-12-04 16:44:16,567] [INFO] Motif autonomous functionality quantification begin
+[2025-12-04 17:54:54,291] [INFO] Successful quantification of motif autonomous functionality
+[2025-12-04 17:54:54,972] [INFO] Motif autonomous functionality & sequence-context synergy quantification completed.

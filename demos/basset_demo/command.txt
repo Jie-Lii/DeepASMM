@@ -1,0 +1,8 @@
+--input_file_path ../demo/basset_demo/basset_8988T.csv
+--model_path ../demo/basset_demo/basset_test_tf24.h5
+--output ../demo/basset_demo/result
+--motif_length 8
+--num_processor 8
+--top_r 0.1
+--min_top_r_num 30
+--CUDA_device 6
