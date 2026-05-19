@@ -28,6 +28,8 @@ python main.py --txt ../demos/basset_demo/command.txt
 
 python main.py --txt ../demos/maize_demo/command.txt
 ```
+* `basset_demo`: Example based on the Basset model. This is a lightweight demo for quickly testing environment configuration, with an approximate runtime of 10 minutes.
+* `maize_demo`: Example for maize genomic sequence analysis.
 
 
 ## Arguments
