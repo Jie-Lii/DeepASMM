@@ -1,0 +1,18 @@
+[2026-05-19 16:08:18,848] [INFO] Input parameter from txt file.
+[2026-05-19 16:08:18,849] [INFO] Running arguments: txt=../demos/maize_demo/command.txt, input_file_path=../demos/maize_demo/shoot(Li_et_al.).csv, model_path=../demos/maize_demo/shoot.h5, output=../demos/maize_demo/result, motif_length=8, num_processor=8, min_motif_count=10, top_r=0.1, min_top_r_num=30, category=all, CUDA_device=3, chunk_size=small
+[2026-05-19 16:08:18,849] [INFO] Using CUDA device: 3
+[2026-05-19 16:08:18,850] [INFO] Reading CSV file from: ../demos/maize_demo/shoot(Li_et_al.).csv
+[2026-05-19 16:08:19,328] [INFO] CSV file successfully read and parsed
+[2026-05-19 16:08:21,852] [INFO] Sequences encoding start
+[2026-05-19 16:08:53,298] [INFO] Successfully located motifs
+[2026-05-19 16:13:52,458] [INFO] Successfully encoded sequences
+[2026-05-19 16:13:54,016] [INFO] Successfully loaded model
+[2026-05-19 16:13:54,016] [INFO] Predicting original sequences...
+[2026-05-19 16:13:57,359] [INFO] Motif sequence context synergy quantification begin
+[2026-05-19 19:37:40,790] [INFO] Successful quantification of motif sequence context synergy
+[2026-05-19 19:37:40,790] [INFO] Motif autonomous functionality quantification begin
+[2026-05-19 21:22:11,299] [INFO] Successful quantification of motif autonomous functionality
+[2026-05-19 21:22:13,415] [INFO] Motif autonomous functionality & sequence-context synergy quantification completed.
+[2026-05-19 21:22:14,121] [INFO] [Downsampling] too many points (65536), using 5000 points for plotting.
+[2026-05-19 21:22:17,092] [INFO] All results have been successfully saved to directory: ../demos/maize_demo/result
+[2026-05-19 21:22:17,093] [INFO] Total running time: 05h 13m 58.24s
