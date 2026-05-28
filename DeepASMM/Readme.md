@@ -42,7 +42,7 @@ python main.py --txt ../demos/maize_demo/command.txt
 |`--output`|Output directory.|
 |`--motif_length`|Length of motifs to mine. Recommended: 8–12 bp.|
 |`--num_processor`|Number of parallel processes. Default: 8.|
-|`--min_motif\_count`|Minimum occurrence count of a motif in background sequences.|
+|`--min_motif_count`|Minimum occurrence count of a motif in background sequences.|
 |`--top_r`|Select top r% motifs for quantification (`all` supported).|
 |`--min_top_r_num`|Minimum number of motifs retained after filtering.|
 |`--category`|Output category used for multi-class models.|
